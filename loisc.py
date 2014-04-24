@@ -16,6 +16,11 @@ from sqlalchemy.orm import (backref, joinedload, subqueryload, sessionmaker,
                             relationship)
 from bottle import template, request, response, redirect, Bottle, debug, run
 
+# INSERT SILLY COMMENT HERE
+# You know, there is a lot of crazy crap that you can do with stuff...
+# AgentBS says Find out what the Sumbitch needs and give it to him
+#
+
 Base = declarative_base()
 engine = create_engine('sqlite:///barcodes.db')
 Session = sessionmaker(engine)
